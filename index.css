@@ -1,0 +1,74 @@
+
+body {
+  background: #262626; }
+
+nav {
+  background-color: rgba(0,0,0,0.5);
+  border-bottom-width: 1px;
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  transition-duration: .2s; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #434343;
+  transition-duration: .2s;}
+
+.navbar {
+  padding-top: .2rem;
+  padding-bottom: .2rem; }
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.8rem; }
+
+.navbar-nav {
+  font-weight: 300;
+  font-size: 1.2rem; }
+
+.nav-link {
+  padding: 0rem 1rem; }
+
+.card {
+  box-shadow: 0 0 0px 0px #ffffff;
+  transition-duration: .3s; }
+
+.card:hover {
+  box-shadow: 0 0 3px 0px #ffffff;
+  transition-duration: .3s; }
+
+.card-title {
+  position: absolute;
+  bottom: .25rem;
+  left: .25rem;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding-top: .25rem;
+  padding-right: .25rem;
+  padding-bottom: .25rem;
+  padding-left: .25rem;
+  background-color: rgba(38, 38, 38, 0.90);
+  border-radius: .25rem;
+  font-weight: 400; }
+
+.card-img-overlay {
+  background-color: rgba(38, 38, 38, 0.0);
+  transition-duration: .3s;
+  border-radius: .25rem; }
+
+.card-img-overlay:hover {
+  background-color: rgba(38, 38, 38, 0.5);
+  transition-duration: .3s; }
+
+.col-sm-4 {
+  padding-bottom: 15px; }
+
+.work-in-progress {
+  pointer-events: none;
+  background-color: rgba(38, 38, 38, 0.90);
+  border-radius: .25rem;
+  color: rgba(255, 255, 255, 0.5); }
